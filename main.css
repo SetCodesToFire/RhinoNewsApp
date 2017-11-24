@@ -370,3 +370,52 @@ footer a {
   text-decoration: none;
   color: #333;
 }
+
+
+
+
+/*
+*
+*
+* media query for smallest viewport
+*
+*
+*/
+
+@media screen and (max-width:650px){
+  .header__title{
+    font-size: 3em;
+  }
+}
+
+@media screen and (min-width:651px){
+  #drawer{
+    width:650px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .containerlarge{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .hero{
+    width:60%;
+  }
+  .top-news{
+    width:40%;
+  }
+  .scores{
+    width:50%;
+  }
+  .weather{
+    width:50%;
+  }
+}
+
+@media screen and (min-width:900px){
+  body{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+}
