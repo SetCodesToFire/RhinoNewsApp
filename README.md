@@ -15,3 +15,12 @@ key features for the design:
   3. Used CSS media queries to apply different styling for small and large screens.
   4. Used relative sizes for elements to avoid breaking layout.
   5. Designed for the smallest mobile device first; then progressively enhance the experience as more screen real estate becomes available.
+
+
+
+
+TO SEE THE APP IN ACTION -
+
+Step 1) Clone the repository.
+Step 2) Open index.html .
+Step 3) View it in all the viewports by resizing the browser window.
